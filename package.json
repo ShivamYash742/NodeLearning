@@ -1,15 +1,15 @@
 {
-  "dependencies": {
-    "express": "^4.21.1"
-  },
-  "name": "node-js",
+  "name": "harry",
   "version": "1.0.0",
-  "description": "Learning Node Js",
+  "description": "Its an amazing package ",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Shivam Mishra",
-  "license": "ISC"
+  "author": "Harry",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {}
 }
