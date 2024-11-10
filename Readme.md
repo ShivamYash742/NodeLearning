@@ -14,9 +14,14 @@ Welcome to my Node.js learning journey repository! This week, I've embarked on e
 
 As we continue through the festive season, this week has been particularly busy due to Diwali celebrations. 
 
+### Week 2 Highlights:
+- **Todo List Application:** Attempted to build a todo list application using Node.js and Express.
+- **MongoDB Integration:** Tried integrating MongoDB for data storage.
+- **Challenges:** Encountered some problems that I need to tackle. If I can’t resolve them on my own, I plan to ask my seniors for help.
+
 ## Upcoming Plans
 
-### Week 2:
+
 
 
 ## Festive Note
