@@ -26,7 +26,8 @@ As we continue through the festive season, this week has been particularly busy 
 
 - **Restarting My Node.js Journey:** I've decided to restart my Node.js journey. Although I learned a lot previously, I struggled to fully understand the concepts due to limited coding time and multiple assignments and vivas awaiting in college. Now that things have slowed down, I have ample time to code, and I’m excited to code while I learn.
   -I restarted my Node.js journey on Friday. I learned how Node.js works, how it was created, and how to use it after re-understanding the basics.
-- **Basic Coding Practice:** I wrote some simple code to add two numbers and write the result into a file named `output.txt`.
+- **Basic Coding Practice Friday:** I wrote some simple code to add two numbers and write the result into a file named `output.txt`.
+- **Saturday Learning:** I learned about the basic theory of DNS, HTTP, and servers. Additionally, I created a small request generator that listens constantly on a given port.
 
 ## Upcoming Plans
 
