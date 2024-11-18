@@ -29,6 +29,11 @@ As we continue through the festive season, this week has been particularly busy 
 - **Basic Coding Practice Friday:** I wrote some simple code to add two numbers and write the result into a file named `output.txt`.
 - **Saturday Learning:** I learned about the basic theory of DNS, HTTP, and servers. Additionally, I created a small request generator that listens constantly on a given port.
 
+## Week 4 Highlights:
+
+- **Sunday Learning:** I learned about the basic theory of Request .
+- **Monday Learning:** I learned about the basic theory of Response. Additionally , I created a simple server that listens on a given port and responds to a given request. which creates simple form to get input data from user and then sends it to server.and prints that data in simple text file .
+
 ## Upcoming Plans
 
 ## Festive Note
