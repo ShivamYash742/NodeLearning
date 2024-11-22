@@ -33,6 +33,8 @@ As we continue through the festive season, this week has been particularly busy 
 
 - **Sunday Learning:** I learned about the basic theory of Request .
 - **Monday Learning:** I learned about the basic theory of Response. Additionally , I created a simple server that listens on a given port and responds to a given request. which creates simple form to get input data from user and then sends it to server.and prints that data in simple text file .
+- **Tuesday and Wednesday:** Focused on practical exams in college.
+- **Thursday and Friday:** Learned about how to parse requests coming from the URL. and built A small routing page a form that take two input from user and prints the sum of two number on a different page
 
 ## Upcoming Plans
 
