@@ -36,6 +36,13 @@ As we continue through the festive season, this week has been particularly busy 
 - **Tuesday and Wednesday:** Focused on practical exams in college.
 - **Thursday and Friday:** Learned about how to parse requests coming from the URL. and built A small routing page a form that take two input from user and prints the sum of two number on a different page
 
+- **Saturday Learning:** I learned about Event Driven, Async Code, Blocking Code, Single Threaded, V8 vs libuv, Node Runtime, and Event Loop.
+
+## Week 5 Highlights:
+
+- **Sunday Learning:** Contiuned and finised on sunday
+- **Monday Learning:** I learned about how to use npm init ,npm Scripts ,npm Packages,Installing Packages ,Installing & using nodemon and also learned about Error and how we can handle them and how to use debugger properly
+
 ## Upcoming Plans
 
 ## Festive Note
