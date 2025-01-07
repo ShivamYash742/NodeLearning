@@ -1,0 +1,23 @@
+[
+  {
+    "houseName": "Shivam Mishra",
+    "price": "1299",
+    "location": "Delhi",
+    "rating": "5",
+    "photoUrl": "asdf"
+  },
+  {
+    "houseName": "Abhay Pratap",
+    "price": "999",
+    "location": "Ghaziabad",
+    "rating": "5",
+    "photoUrl": "asdf"
+  },
+  {
+    "houseName": "Siddhi Malasi",
+    "price": "1999",
+    "location": "Ghaziabad",
+    "rating": "5",
+    "photoUrl": "asdf"
+  }
+]
