@@ -1,0 +1,26 @@
+[
+  {
+    "houseName": "Shivam's House",
+    "price": "12500",
+    "location": "Delhi",
+    "rating": "5",
+    "photoUrl": "/images/house1.png",
+    "id": "0.11929991719169597"
+  },
+  {
+    "houseName": "Siddhi Malasi",
+    "price": "12500",
+    "location": "Delhi",
+    "rating": "5",
+    "photoUrl": "/images/house2.png",
+    "id": "0.08730209814065382"
+  },
+  {
+    "houseName": "Gomini Gautham",
+    "price": "12500",
+    "location": "Delhi",
+    "rating": "5",
+    "photoUrl": "/images/house3.png",
+    "id": "0.6432415333795183"
+  }
+]

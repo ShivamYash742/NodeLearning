@@ -1,0 +1,33 @@
+<%- include('../partials/head') %>
+</head>
+<body>
+  <%- include('../partials/nav') %>
+  <main class="container mx-auto bg-white shadow-lg rounded-lg p-8 mt-10 max-w-6xl">
+    <div class="flex flex-col md:flex-row items-center">
+      <!-- Image Section -->
+      <div class="md:w-1/2 w-full">
+        <img src="<%= home.photoUrl %>" alt="<%= home.name %>" class="w-full h-full object-cover rounded-lg shadow-md">
+      </div>
+      <!-- Details Section -->
+      <div class="md:w-1/2 w-full mt-6 md:mt-0 md:ml-8 flex flex-col justify-between">
+        <h2 class="text-3xl text-red-500 font-bold text-center md:text-left mb-6">
+          You are viewing the details of the home with id: <%= home.id %>
+        </h2>
+        <h3 class="text-2xl text-gray-600 font-bold mb-4">Home Details</h3>
+        <ul class="list-none mb-6">
+          <li class="text-lg text-gray-600 mb-2"><strong>Name:</strong> <%= home.houseName %></li>
+          <li class="text-lg text-gray-600 mb-2"><strong>City:</strong> <%= home.location %></li>
+          <li class="text-lg text-gray-600 mb-2"><strong>Rating:</strong> ⭐ <%= home.rating %></li>
+          <li class="text-lg text-gray-600 mb-2"><strong>Price:</strong> <%= home.price %></li>
+        </ul>
+        <div class="flex gap-4">
+          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Edit Home</button>
+          <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Delete Home</button>
+          <%- include('../partials/favourite') %>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+</body>
+</html>
