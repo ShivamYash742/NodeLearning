@@ -5,7 +5,7 @@
     "location": "Delhi",
     "rating": "5",
     "photoUrl": "/images/house1.png",
-    "id": "0.11929991719169597"
+    "id": "1"
   },
   {
     "houseName": "Siddhi Malasi",
@@ -13,7 +13,7 @@
     "location": "Delhi",
     "rating": "5",
     "photoUrl": "/images/house2.png",
-    "id": "0.08730209814065382"
+    "id": "2"
   },
   {
     "houseName": "Gomini Gautham",
@@ -21,6 +21,14 @@
     "location": "Delhi",
     "rating": "5",
     "photoUrl": "/images/house3.png",
-    "id": "0.6432415333795183"
+    "id": "3"
+  },
+  {
+    "houseName": "Abhay",
+    "price": "12500",
+    "location": "Noida",
+    "rating": "4.5",
+    "photoUrl": "/images/house4.png",
+    "id": "4"
   }
 ]

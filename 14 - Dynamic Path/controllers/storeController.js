@@ -1,3 +1,4 @@
+const Favourite = require("../models/favourite");
 const Home = require("../models/home");
 
 exports.getIndex = (req, res, next) => {
@@ -28,15 +29,31 @@ exports.getBookings = (req, res, next) => {
 };
 
 exports.getFavouriteList = (req, res, next) => {
-  Home.fetchAll((registeredHomes) =>
-    res.render("store/favourite-list", {
-      registeredHomes: registeredHomes,
-      pageTitle: "My Favourites",
-      currentPage: "favourites",
+  Favourite.getFavouritesList((favourites) => {
+    Home.fetchAll((registeredHomes) => {
+      const favDetails = favourites.map((favId) => registeredHomes.find(home => home.id === favId));
+      res.render("store/favourite-list", {
+        favDetails: favDetails,
+        pageTitle: "Favourite List",
+        currentPage: "favourite",
+      });
     })
-  );
+  })
 };
 
+exports.postFavouriteList = (req, res, next) => {
+  const homeId = req.body.homeId;
+  console.log('Adding home to favourite list...', homeId);
+  Favourite.addToFavouriteList(homeId, (status) => {
+    if (!status) {
+      console.log("Added to the list");
+      res.redirect("/favourites");
+    } else {
+      console.log("Already in the list");
+      res.redirect("/favourites");
+    }
+  });
+};
 exports.getHomeDetails = (req, res, next) => {
   const homeId = req.params.id;
   console.log('Fetching home details...');
@@ -52,10 +69,4 @@ exports.getHomeDetails = (req, res, next) => {
       })
     }
   });
-};
-
-exports.getAddToFavouriteList = (req, res, next) => {
-  const homeId = req.body;
-  console.log('Adding home to favourite list...', homeId);
-  res.redirect("/favourites");
 };
