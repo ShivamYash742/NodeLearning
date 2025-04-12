@@ -5,6 +5,8 @@ const app = express();
 const path = require('path')
 const root = require('./utils/path');
 const exp = require('constants');
+const chalk = require('chalk');
+console.log(chalk.blue('Hello world!'));
 
 app.use(express.static(path.join(root, 'public')))
 
